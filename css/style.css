@@ -26,6 +26,10 @@ body{
 .navtop a {
     text-decoration: none;
     color: rgb(216, 213, 213);
+    cursor: default;
+}
+.navtop a:hover{
+    color: white;
 }
 
 .navmeio{
@@ -33,39 +37,47 @@ body{
     gap: 18px;
     font-size: 11px;
     margin-left: 300px;
-
 }
 .navmeio a {
     text-decoration: none;
     color: rgb(216, 213, 213);
+}
+.navmeio a:hover{
+    color: white;
+    cursor: default;
 }
 
 .nav2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #007C5B;
+    background-color: #037959;
     gap: 130px;
+    height: 70px;
 }
 .divnav2{
     display: flex;
-    gap: 50px;
+    gap: 50px;  
 }
 
 .divnav2 a {
     color: white;
     font-size: 14px;
+    cursor: default;
+}
+.divnav2 a:hover{
+    color: #05c994;
 }
 
 .logobet{
-    margin-left: 20px;
-    width: 150px;
-    height: 75px;
+    margin-left: 13px;
+    width: 160px;
+    height: 70px;
 }
 .navparagrafos{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
-    font-size: 11px;
+    font-size: 11.3px;
     margin-right: 40px;
 }
