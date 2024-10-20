@@ -1,20 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
-    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
     background-color: #282828;
     color: white;
+    font-family: "Roboto", sans-serif;
 }
 
-
-
-ul{
+.cabecalho{
     display: flex;
-    gap: 30px;
-    list-style-type: none;
+    justify-content: space-around;
+    padding: 17px;
 }
 .navtop{
     display: flex;
-    justify-content: space-between;
+    gap: 18px;
+    font-size: 11px;
+}
+.navtop a {
+    text-decoration: none;
+    color: rgb(216, 213, 213);
+}
+
+.navmeio{
+    display: flex;
+    gap: 18px;
+    font-size: 11px;
+    margin-left: 300px;
+
+}
+.navmeio a {
+    text-decoration: none;
+    color: rgb(216, 213, 213);
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #007C5B;
+    gap: 130px;
+}
+.divnav2{
+    display: flex;
+    gap: 50px;
+}
+
+.divnav2 a {
+    color: white;
+    font-size: 14px;
+}
+
+.logobet{
+    margin-left: 20px;
+    width: 150px;
+    height: 75px;
+}
+.navparagrafos{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 11px;
+    margin-right: 40px;
 }
