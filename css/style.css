@@ -11,7 +11,7 @@ body{
     background-color: #282828;
     color: white;
     font-family: "Roboto", sans-serif;
-    overflow-y: hidden;
+    overflow-y: h;
 
 }
 
@@ -137,4 +137,26 @@ span a:hover{
 }
 .lista1 a:hover{
     color: #05c994;
+}
+
+
+.boxpesquisa i{
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+}
+
+.form{
+    border-radius: 30px;
+    background-color: #3E3E3E;
+    height: 40px;
+    border: none; 
+}
+.form:focus{
+    outline: none;
+}
+.form::placeholder{
+    font-weight: bolder;
+    color: white;
+    padding-left: 30px;
 }
