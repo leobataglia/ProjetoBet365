@@ -94,11 +94,13 @@ aside{
     margin-left: 220px;
     overflow-y: scroll;
     width: 280px;
-    height: 813px;
+    height: 804px;
 }
 aside::-webkit-scrollbar{
-    width: 7px;
+    width: 6px;
 }
+
+
 aside::-webkit-scrollbar-thumb{
     overflow-y: scroll;
     background: #535353;
@@ -114,10 +116,12 @@ h5{
     gap: 7px;
     align-items: center;
     font-size: 14px;
-    cursor: pointer;
     width: 80px;
 }
-span:hover{
+span a{
+    color: white;
+}
+span a:hover{
     color: #05c994;
 }
 
