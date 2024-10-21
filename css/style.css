@@ -11,6 +11,8 @@ body{
     background-color: #282828;
     color: white;
     font-family: "Roboto", sans-serif;
+    overflow-y: hidden;
+
 }
 
 .cabecalho{
@@ -87,11 +89,19 @@ aside{
     gap: 40px;
     padding: 30px;
     margin-left: 220px;
-    overflow: scroll;
-    width: 290px;
-    overflow-x: hidden;
-
+    overflow-y: scroll;
+    width: 280px;
+    height: 813px;
 }
+aside::-webkit-scrollbar{
+    width: 7px;
+}
+aside::-webkit-scrollbar-thumb{
+    overflow-y: scroll;
+    background: #535353;
+}
+
+
 
 h5{
     color: #05c994;
@@ -101,11 +111,23 @@ h5{
     gap: 7px;
     align-items: center;
     font-size: 14px;
+    cursor: pointer;
+    width: 80px;
 }
+span:hover{
+    color: #05c994;
+}
+
 .lista1{
     display: flex;
     flex-direction: column;
     gap: 19px;
     font-weight: bolder;
     font-size: 14px;
+}
+.lista1 a {
+    color: white;
+}
+.lista1 a:hover{
+    color: #05c994;
 }
