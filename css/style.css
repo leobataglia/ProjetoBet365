@@ -81,3 +81,31 @@ body{
     font-size: 11.3px;
     margin-right: 60px;
 }
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+    margin-left: 220px;
+    overflow: scroll;
+    width: 290px;
+    overflow-x: hidden;
+
+}
+
+h5{
+    color: #05c994;
+}
+.divoferta{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-size: 14px;
+}
+.lista1{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    font-weight: bolder;
+    font-size: 14px;
+}
