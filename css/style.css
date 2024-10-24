@@ -157,6 +157,7 @@ span a:hover{
     background-color: #3E3E3E;
     height: 40px;
     border: none; 
+    cursor: pointer;
 }
 .form:focus{
     outline: none;
@@ -164,7 +165,7 @@ span a:hover{
 .form::placeholder{
     font-weight: bolder;
     color: white;
-    padding-left: 30px;
+    padding-left: 37px;
 }
 .boxpesquisa{
     display: flex;
