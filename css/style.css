@@ -174,3 +174,14 @@ span a:hover{
     margin-top: -794px;
     margin-left: 260px;
 }
+#imagensbet{
+    display: flex;
+    margin-left: 534px;
+    margin-top: 14px;
+    height: 200px;
+    width: 340px;
+}
+#imagensbet img{
+    border-radius: 4.5px;
+    border: 1px solid rgba(128, 128, 128, 0.541);
+}
