@@ -228,6 +228,6 @@ span a:hover{
     color: #00FFDA;
     font-weight: bolder;
     position: absolute;
-    margin-left: 10px;
-
+    margin-left: 15px;
+    margin-top: 7px;
 }
