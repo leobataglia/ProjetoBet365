@@ -174,14 +174,60 @@ span a:hover{
     margin-top: -794px;
     margin-left: 260px;
 }
-#imagensbet{
+.imagensbet{
     display: flex;
+    box-sizing: border-box;
+    cursor: pointer;
     margin-left: 534px;
     margin-top: 14px;
     height: 200px;
     width: 340px;
 }
-#imagensbet img{
+.imagensbet img{
+    display: inline-block;
     border-radius: 4.5px;
     border: 1px solid rgba(128, 128, 128, 0.541);
+}
+.time1{
+    color: #00FFDA;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.time-aposta{
+    color: white;
+    position: absolute;
+    width: 200px;
+    margin-top: 35px;
+    font-style: italic;
+    margin-left: 13px;
+}
+.paragrafodiv{
+    align-self: end;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px;
+    font-size: 10px;
+    position: absolute;
+    color: #b5d1cbad;
+    margin-bottom: 5px;
+}
+.div2{
+    margin-top: 0px;
+    margin-left: 3px;
+}
+.div2 p{
+    margin-top: -47px;
+}
+.div2 h2{
+    margin-top: 30px;
+}
+.time2{
+    color: #00FFDA;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 10px;
+
 }
