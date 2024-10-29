@@ -217,6 +217,7 @@ span a:hover{
 .div2{
     margin-top: 0px;
     margin-left: 3px;
+    margin-right: 2px;
 }
 .div2 p{
     margin-top: -47px;
@@ -230,4 +231,7 @@ span a:hover{
     position: absolute;
     margin-left: 15px;
     margin-top: 7px;
+}
+.aposta2{
+    margin: 0;
 }
