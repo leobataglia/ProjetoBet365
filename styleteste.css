@@ -71,9 +71,9 @@ a:active{
    opacity: .5;
 }
 
-@media (max-width:380px){
+@media (max-width:900px){
     .left{
-        width: 100%;
+        width: 72%;
         margin: 10px 0 0 10px;
     }
     p{
