@@ -11,7 +11,7 @@ body{
     background-color: #282828;
     color: white;
     font-family: "Roboto", sans-serif;
-    overflow-y: h;
+    overflow-y: hidden;
 
 }
 
@@ -56,6 +56,9 @@ body{
     background-color: #037959;
     gap: 130px;
     height: 70px;
+}
+.nav2 > a:first-child{
+   height: 71px;
 }
 .divnav2{
     display: flex;
@@ -237,21 +240,21 @@ span a:hover{
 }
 .div3{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 30px;
-    
-}
-.icones img{
-    height: 25px;
-    min-width: 25px;
-    max-width: 50px;
-    margin-left: 34px;
-}
-.letras{
-    font-size: 11px;
-    font-weight: 700;
-    width: 100%;
     text-align: center;
-    line-height: 17px;
+    width: 1000px;
+    margin-top: 37px; 
+    gap: 26px;
+    margin-left: 540px;
+}
+.div3 img{
+    width: 24px;
+}
+.div3 p{
+    font-size: 12px;
+    margin-top: 2px;
+    font-weight: 600;
+}
+.txtimg:hover{
+    color: #05c994;
+    cursor: pointer;
 }
