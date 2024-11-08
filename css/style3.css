@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
+
+*{
+font-family: "Poppins", sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+
+nav{
+    display: inline-block;
+    margin: 30px 15px 144px 30px;
+}
+.links{
+    color: rgb(60, 110, 204);
+}
+.links:hover{
+    color: rgba(60, 110, 204, 0.63);
+}
+
+header > button{
+    background-color: rgb(76, 223, 32);
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 14px;
+    padding: 7px;
+    border: 0;
+    border-radius: 30px;
+    width: 120px;
+    cursor: pointer;
+}
+header > button:hover{
+    background-color: rgb(102, 230, 51);
+}
+
+img{
+    display: inline-block;
+    margin-right: 500px;
+    margin-left: 30px;
+    width: 600px;
+}
+aside{
+    display: inline-block;
+    width: 500px;
+}
+aside h1{
+    font-size: 60px;
+    color: cornflowerblue;
+}
+aside p {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    color: rgb(36, 67, 126);
+}
+aside button{
+    text-decoration: none;
+}
