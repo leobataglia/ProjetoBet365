@@ -60,7 +60,7 @@ aside p {
 aside button{
     border: none;
     font-size: 25px;
-    cursor: -moz-grabbing;
+    cursor: pointer;
     margin-left: 0px;
     color: rgb(102, 230, 51);
     background: transparent;
