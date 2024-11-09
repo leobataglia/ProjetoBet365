@@ -69,3 +69,49 @@ aside button:hover{
     color: rgb(116, 248, 8);
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.151);
 }
+
+@media(max-width:600px){
+    header{
+        display: flex;
+        gap: 10px;
+        width: 373px;
+    }
+    header nav{
+        width: 105px;
+        margin: 3px 10px 10px 13px;
+        
+    }
+    header button{
+        display: inline-block;
+        width: 60px;
+        position: relative;
+        right: 13px;
+        margin: 3px 0 10px 0;
+    }
+
+    img{
+        width: 350px;
+        margin-right: 0;
+        margin-left: 13px;
+    }
+    aside{
+        display: block;
+        margin: auto;
+        margin-right: 0;
+        width: 320px;
+        margin-left: 13px;
+    }
+    aside h1{
+        font-size: 40px;
+        width: 350px;
+    }
+    aside p{
+        margin-top: 10px;
+        width: 350px;
+        line-height: 35px;
+    }
+    aside button{
+        display: block;
+        margin: auto;
+    }
+}
